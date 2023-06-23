@@ -7,6 +7,7 @@ from todolist.models import Task, Tag
 class TaskTests(TestCase):
     def setUp(self):
         self.client = Client()
+        Task.objects.all().delete()
         self.task = Task.objects.create(
             content="Task 1",
             is_done="False",
@@ -50,6 +51,7 @@ class TaskTests(TestCase):
 class TagTest(TestCase):
     def setUp(self):
         self.client = Client()
+        Tag.objects.all().delete()
         self.tag = Tag.objects.create(name="work")
 
     def test_create_tag(self):
