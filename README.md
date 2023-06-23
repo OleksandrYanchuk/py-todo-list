@@ -1,4 +1,6 @@
-# py-todo-list
+# Django To-Do List App
+
+This is a simple Django application that allows you to create and manage your to-do list. It provides functionality to create tasks, assign tags to tasks, update task details, mark tasks as done or undone, and delete tasks and tags.
 
 ## Setup and Local Installation
 
@@ -45,7 +47,3 @@ Todo project uses environment variables to store sensitive information and confi
 #### 1. Rename a file name `.env_sample` to `.env` in the project root directory.
 
 #### 2. Make sure to replace `your_secret_key_value_here` with your actual secret key.
-
-## Use the following command to load prepared data from fixture to test and debug your code:
-python manage.py loaddata todo_list_data.json
-
