@@ -32,7 +32,7 @@
     "pk": 1,
     "fields": {
       "content": "Complete Django practice",
-      "created_date": "2023-06-23T10:57:00Z",
+      "created_date": "2023-06-30T20:00:00Z",
       "deadline_date": "2023-06-30T20:00:00Z",
       "is_done": "False",
       "tags": [
@@ -45,7 +45,7 @@
     "pk": 2,
     "fields": {
       "content": "Buy 3 carrots and 1 pineapple",
-      "created_date": "2023-06-23T12:00:00Z",
+      "created_date": "2023-06-30T20:00:00Z",
       "deadline_date": "2023-06-24T20:00:00Z",
       "is_done": "False",
       "tags": [
@@ -58,7 +58,7 @@
     "pk": 3,
     "fields": {
       "content": "Clean widows",
-      "created_date": "2023-06-23T13:00:00Z",
+      "created_date": "2023-06-30T20:00:00Z",
       "deadline_date": "2023-06-24T21:00:00Z",
       "is_done": "False",
       "tags": [
