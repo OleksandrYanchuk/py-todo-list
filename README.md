@@ -11,8 +11,7 @@ This is a simple Django application that allows you to create and manage your to
 ```python
 git clone https://github.com/OleksandrYanchuk/py-todo-list.git
 ```
-#### 2.  Open the folder::
-
+#### 2. Open the folder:
 ```python
 cd py-todo-list
 ```
