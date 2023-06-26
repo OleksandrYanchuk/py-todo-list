@@ -109,6 +109,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
+DATE_FORMAT = 'F j, Y, H:i'
+
 TIME_ZONE = "Europe/Lisbon"
 
 USE_I18N = True
