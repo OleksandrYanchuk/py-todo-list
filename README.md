@@ -11,11 +11,15 @@ This is a simple Django application that allows you to create and manage your to
 ```python
 git clone https://github.com/OleksandrYanchuk/py-todo-list.git
 ```
-#### 2. Create a virtual environment:
+#### 2. Open the folder:
+```python
+cd py-todo-list
+```
+#### 3. Create a virtual environment:
 ```python
 python -m venv venv
 ```
-#### 3. Activate the virtual environment:
+#### 4. Activate the virtual environment:
    
 ##### - For Windows:
 ```python
@@ -25,15 +29,14 @@ venv\Scripts\activate
 ```python
 source venv/bin/activate
 ```
-#### 4. Install the project dependencies:
+#### 5. Install the project dependencies:
 ```python
 pip install -r requirements.txt
 ```
-#### 5. Apply database migrations:
+#### 6. Apply database migrations:
 ```python
 python manage.py migrate
 ```
-
 #### 7. Start the development server:
 ```python
 python manage.py runserver
